@@ -17,8 +17,7 @@ int main(){
 	while(choice != 5){
 		cout << "1. VIEW TRANSACTIONS\n"<< "2. CREATE TRANSACTION\n" <<
 			"3. GENERATE BLOCK\n" << "4. VALIDATE\n" << "5. EXIT\n";
-
-		int choice;
+		
 		cin >> choice;
 
 		if(choice == 1){
