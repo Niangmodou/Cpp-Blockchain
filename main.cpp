@@ -46,20 +46,5 @@ int main(){
 		}
 
 	}
-	// blockchain.createTransaction("Modou",2456.23);
-	// blockchain.createTransaction("Dak",132.00);	
-	// blockchain.createTransaction("Chris",29.76);	
-	// blockchain.createTransaction("Addy",7653.88);	
-	// blockchain.createTransaction("Kaleah",1234.99);	
-	// blockchain.createTransaction("Jide",243.96);	
-	// blockchain.createTransaction("Gaby",865.09);	
-	// blockchain.createTransaction("Joe",83.12);	
-	// blockchain.createTransaction("Afnan",65.29);	
-	// blockchain.createTransaction("Mousta",983.43);	
-	// blockchain.createTransaction("The boy",245.76);	
-	// blockchain.createTransaction("Sacha",124.50);	
-	// blockchain.createTransaction("Hawa",92.76);	
-
-	//cout << blockchain << endl;
 	return 0;
 }
