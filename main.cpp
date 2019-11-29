@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include "Blockchain.h"
-#include "sha256.h" //Sha256 hasing algorithm
+#include "sha256.h" //Sha256 hashing algorithm
 
 using namespace std;
 using namespace myCoin;
