@@ -21,20 +21,21 @@ int main(){
 		cin >> choice;
 
 		if(choice == 1){
-	    	cout << blockchain;
+	    		cout << blockchain;
 
 		}else if(choice == 2){
 			string name;
-	        cout << "Enter Name: ";
-	        cin >> name;
+			cout << "Enter Name: ";
+			cin >> name;
 
-	        double amount;
-	        cout << "Enter Amount: ";
-	        cin >> amount;
+			double amount;
+			cout << "Enter Amount: ";
+			cin >> amount;
 
-	        blockchain.createTransaction(name,amount);
+	        	blockchain.createTransaction(name,amount);
+			
 		}else if(choice == 3){
-	        blockchain.createTransaction("NULL",0);
+	        	blockchain.createTransaction("NULL",0);
 		}else if(choice == 4){
 			cout << ( blockchain.isValidChain() 
 	        		? "Chain is valid" : "Chain is invalid") << endl << endl;
